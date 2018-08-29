@@ -1,0 +1,35 @@
+{
+	"name" : "instruction",
+    "start" : "../../main.html",	
+    "description" : "Displays a message to the user",
+    "version" : "0",
+	
+	"configuration" : {
+		"type" : "object",
+		"properties" : {
+			"wombat_component" : {
+				"enum" : ["instruction"],
+				"default" : "instruction"
+			},
+			"language" : {
+				"type" : "string",
+				"default" : "en"
+			},
+			"content" : {
+				"type" : "string"
+			},
+			"continue_text" : {
+				"type" : "string"
+			} 
+		}
+	},
+
+	"default_configuration" : {
+		"content" : "<div class='title'>This is a title</div><p>This is some content</p>",
+		"language_options" : {
+			"continue" : "next"
+		}
+	}
+
+
+}

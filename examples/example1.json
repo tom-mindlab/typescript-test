@@ -1,0 +1,8 @@
+{
+	"wombat_component" : "instruction",
+	"content" : "<div class='title'>This is a title</div><p>This is some content</p>",
+	"language_options" : {
+		"continue_text" : "Continue my amigo"	
+	}
+	
+}
